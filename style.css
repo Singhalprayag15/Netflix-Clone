@@ -1,0 +1,804 @@
+body {
+    background-color: #303030;
+}
+
+
+/* netflix-index */
+
+#netflix-img {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    z-index: 0;
+}
+
+
+/* Header */
+
+#header {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    margin: 0%;
+    padding: 0%;
+    height: 90vh;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
+    z-index: 1;
+}
+
+#logo-name {
+    margin-left: 2rem;
+    color: #e50914;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    padding: 0%;
+    font-weight: 800;
+}
+
+#nav-search {
+    color: white;
+    background-color: #e50914;
+    border: none;
+    margin-right: 5rem;
+}
+
+#navbarDropdown {
+    margin-left: 63rem;
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: #000;
+}
+
+#navbarDropdown-items {
+    margin-left: 63rem;
+    background-color: rgb(163, 157, 157);
+    color: white;
+}
+
+
+/* header-middle */
+
+#header-middle {
+    height: auto;
+    width: 50vw;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 22rem;
+}
+
+#h1-header-middle {
+    font-size: 4rem;
+    font-weight: 650;
+}
+
+#p-header-middle {
+    margin-top: 2rem;
+}
+
+.input-header-middle {
+    padding: 1.1rem 1rem;
+    width: 30vw;
+    height: auto;
+}
+
+.button-header-middle {
+    font-size: 2rem;
+    /* padding: 1rem; */
+    padding: 0rem 1.5rem;
+    padding-top: 0.15rem;
+    padding-bottom: 0.8rem;
+    /* width: 10vw; */
+    margin-left: -0.2rem;
+    border: none;
+    color: white;
+    background-color: #e50914;
+}
+
+
+/* Main */
+
+
+/* Upper-Main */
+
+#upper-main {
+    margin-top: 0.5rem;
+    background-color: #000;
+}
+
+#col1-upper-main {
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 9rem;
+}
+
+#h1-upper-main {
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+#col2-upper-main {
+    position: relative;
+}
+
+#video-col2-upper-main {
+    position: absolute;
+    top: 6rem;
+    left: 5.5rem;
+}
+
+
+/* Middle-Main */
+
+#middle-main {
+    height: auto;
+    margin-top: 0.5rem;
+    background-color: #000;
+    margin-bottom: 0.5rem;
+    /* padding-bottom: 1rem; */
+}
+
+#col2-middle-main {
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 9rem;
+    margin-left: 2rem;
+}
+
+#h1-middle-main {
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+#col1-middle-main {
+    position: relative;
+}
+
+#div1-col1-middle-main {
+    width: 23vw;
+    padding: 1rem;
+    background-color: #000;
+    position: absolute;
+    top: 21rem;
+    left: 10rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
+    border: 1px solid gray;
+    color: white;
+}
+
+#img-div1-col1-middle-main {
+    height: 10vh;
+    max-width: 100%;
+}
+
+#p1-div1-col1-middle-main {
+    font-weight: 700;
+}
+
+#span-div1-col1-middle-main {
+    font-weight: 400;
+    color: blue;
+}
+
+#div1-div1-col1-middle-main {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    height: auto;
+    width: auto;
+}
+
+
+/* middle2-main */
+
+#middle2-main {
+    height: 58vh;
+    margin-top: 0.5rem;
+    background-color: #000;
+}
+
+#col1-middle2-main {
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 9rem;
+}
+
+#h1-middle2-main {
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+#col2-middle2-main {
+    position: relative;
+}
+
+#video-col2-middle2-main {
+    width: 25vw;
+    position: absolute;
+    top: 2rem;
+    left: 9rem;
+}
+
+#img-col2-middle2-main {
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* Middle3-Main */
+
+#middle3-main {
+    height: auto;
+    margin-top: 0.5rem;
+    background-color: #000;
+    margin-bottom: 0.5rem;
+    /* padding-bottom: 1rem; */
+}
+
+#col2-middle3-main {
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 9rem;
+}
+
+#h1-middle3-main {
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+#img-col1-middle3-main {
+    margin-top: 5rem;
+    height: 50vh;
+}
+
+
+/* Middle4-Main */
+
+#middle4-main {
+    background-color: #000;
+    padding-bottom: 3rem;
+}
+
+#h1-middle4-main {
+    color: white;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    padding: 2rem 4rem;
+    font-weight: 700;
+}
+
+.middle4-btn {
+    font-size: 1.5rem;
+    background-color: #303030;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+#p-middle4-main {
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 3rem;
+    margin-left: 10rem;
+}
+
+#input-middle4-main {
+    margin-left: 7rem;
+}
+
+
+/* footer */
+
+#footer {
+    height: auto;
+    width: 100%;
+    margin-top: 0.5rem;
+    background-color: #000;
+}
+
+#p-footer {
+    margin-left: 6rem;
+    padding: 5rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    color: #757575;
+}
+
+#footer2 {
+    height: auto;
+    width: 100%;
+    background-color: #000;
+}
+
+.a1-fotter2 {
+    color: #757575;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.a1-fotter2:hover {
+    text-decoration: underline;
+    color: #757575;
+}
+
+#a-footer2 {
+    height: 8vh!important;
+    width: 12vw!important;
+    color: #757575;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    border: 1px solid #757575;
+}
+
+#footer3 {
+    height: auto;
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 3rem;
+}
+
+#p-footer3 {
+    color: #757575;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+
+/* Using Media Query */
+
+
+/* For 1024px */
+
+@media screen and (max-width:1024px) {
+    #netflix-img {
+        height: 50vh;
+        width: 100%;
+    }
+    #header {
+        height: 50vh;
+        width: 100%;
+    }
+    #navbarDropdown {
+        margin-left: 35rem;
+    }
+    #nav-search {
+        margin-right: 0rem;
+        margin-left: -6.5rem;
+    }
+    #h1-header-middle {
+        margin-left: -8rem;
+        font-size: 3rem;
+        margin-top: 8rem;
+    }
+    #h4-header-middle {
+        margin-left: -8rem;
+        font-size: 1.6rem;
+    }
+    #p-header-middle {
+        width: 70vw;
+        text-align: left;
+        font-size: 1.4rem;
+        margin-left: -9rem;
+    }
+    #input-header-middle-email {
+        margin-left: -8rem!important;
+    }
+    #btn-header-middle-email {
+        font-size: 1.5rem!important;
+        padding-top: 0.6rem!important;
+    }
+    #h1-upper-main {
+        font-size: 3rem;
+        margin-top: -5rem;
+    }
+    #upper-main {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    #col1-upper-main {
+        margin-left: 2rem;
+    }
+    #p-upper-main {
+        width: 40vw;
+        font-size: 1.6rem;
+    }
+    #img-col2-upper-main {
+        margin-left: -5rem;
+        height: 20vh;
+        width: auto;
+    }
+    #video-col2-upper-main {
+        height: 10vh;
+        width: auto;
+        left: -0.9rem;
+        top: 4rem;
+        z-index: 0;
+    }
+    #middle-main {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    #img-col1-middle-main {
+        height: 30vh;
+        margin-left: -6rem;
+    }
+    #div1-col1-middle-main {
+        width: 30vw;
+        top: 18rem;
+        left: 2rem;
+    }
+    #img-div1-col1-middle-main {
+        height: 5vh;
+    }
+    #div1-div1-col1-middle-main {
+        height: 3vh;
+        width: 3vw;
+        margin-top: 0.5rem;
+        /* margin-left: -6rem; */
+    }
+    #h1-middle-main {
+        width: 40vw;
+        margin-left: 1rem;
+        margin-top: -4rem;
+    }
+    #p-middle-main {
+        margin-left: 1rem;
+    }
+    #middle2-main {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    #h1-middle2-main {
+        width: 50vw;
+    }
+    #col1-middle2-main {
+        margin-left: 2rem;
+    }
+    #img-col2-middle2-main {
+        height: 30vh;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    #video-col2-middle2-main {
+        height: 25vh;
+        width: 30vw;
+        top: 0rem;
+        left: 11rem;
+    }
+    #middle2-main {
+        height: auto;
+        padding-bottom: 5rem;
+    }
+    #middle3-main {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    #img-col1-middle3-main {
+        height: 20vh;
+    }
+    #col2-middle3-main {
+        margin-top: 4rem;
+    }
+    #h1-middle4-main {
+        font-size: 3rem;
+        width: 100vw;
+        padding-left: 0rem;
+    }
+    #p-middle4-main {
+        width: 100vw;
+        margin-left: 0rem;
+    }
+    .input-header-middle {
+        margin-left: 3rem!important;
+    }
+    #btn-middle4-main {
+        font-size: 1.5rem;
+        height: auto;
+        padding-bottom: 1.1rem;
+        padding-top: 0.7rem;
+    }
+    #a-footer2 {
+        padding: 1rem;
+        padding-right: 2rem;
+        height: 5vh!important;
+        width: 16vw!important;
+    }
+    #p-footer {
+        font-size: 1rem;
+    }
+    .a1-fotter2 {
+        font-size: 1rem;
+    }
+}
+
+
+/* Media Qurey for 768px */
+
+@media screen and (max-width:768px) {
+    #logo-name {
+        font-size: 3rem;
+    }
+    #h1-header-middle {
+        font-size: 3rem;
+    }
+    #header-middle {
+        margin-left: 15rem;
+        margin-top: -7rem;
+    }
+    #h4-header-middle {
+        font-size: 1.4rem;
+    }
+    #p-header-middle {
+        width: 50vw;
+        margin-left: -3rem;
+    }
+    .input-header-middle {
+        width: 25vw;
+        padding: 0.5rem 0.5rem;
+    }
+    #btn-header-middle-email {
+        font-size: 1rem!important;
+    }
+    #h1-upper-main {
+        font-size: 2.5rem;
+    }
+    #p-upper-main {
+        font-size: 1.3rem;
+    }
+    #img-col2-upper-main {
+        margin-left: -2rem;
+    }
+    #video-col2-upper-main {
+        top: 3rem;
+        left: 2rem;
+    }
+    #img-col1-middle-main {
+        height: 25vh;
+        margin-left: -3rem;
+    }
+    #div1-col1-middle-main {
+        height: 7vh;
+        top: 17vh;
+        width: 30vw;
+    }
+    #div1-div1-col1-middle-main {
+        height: 2vh;
+        width: 2vw;
+    }
+    #col2-middle-main {
+        margin-left: 0rem;
+        margin-top: 8rem;
+    }
+    #h1-middle-main {
+        font-size: 2rem;
+        width: 50vw;
+    }
+    #p-middle-main {
+        font-size: 1.3rem;
+    }
+    #middle-main {
+        padding-bottom: 2rem;
+    }
+    #col1-middle2-main {
+        margin-top: 3rem;
+    }
+    #h1-middle2-main {
+        font-size: 2rem;
+    }
+    #p-middle2-main {
+        font-size: 1.3rem;
+    }
+    #img-col2-middle2-main {
+        height: 25vh;
+    }
+    #video-col2-middle2-main {
+        height: 20vh;
+        width: 25vw;
+        left: 8rem;
+    }
+    #h1-middle3-main {
+        font-size: 2rem;
+    }
+    #p-middle3-main {
+        font-size: 1.3rem;
+    }
+    #h1-middle4-main {
+        font-size: 2rem;
+    }
+    #p-middle4-main {
+        font-size: 1rem;
+    }
+    #btn-middle4-main {
+        font-size: 1rem;
+        padding-bottom: 0.7rem;
+    }
+    #a-footer2 {
+        width: 22vw!important;
+        padding-bottom: 3rem;
+    }
+}
+
+
+/* Media Qurey For 576px */
+
+@media screen and (max-width:576px) {
+    #logo-name {
+        font-size: 2rem;
+    }
+    #h1-header-middle {
+        font-size: 2rem;
+    }
+    #header-middle {
+        margin-left: 12rem;
+        margin-top: -5rem;
+    }
+    #h4-header-middle {
+        font-size: 1rem;
+    }
+    #p-header-middle {
+        width: 50vw;
+        font-size: 0.8rem;
+        margin-left: -4rem;
+        margin-top: 1rem;
+    }
+    .input-header-middle {
+        font-size: 0.8rem;
+        width: 10rem;
+    }
+    #btn-header-middle-email {
+        font-size: 0.8rem!important;
+        padding-bottom: 0.6rem;
+        padding-top: -0.1rem;
+    }
+    #h1-upper-main {
+        font-size: 2rem;
+    }
+    #upper-main {
+        display: block;
+    }
+    #col1-upper-main {
+        margin-top: 5.5rem;
+    }
+    #h1-upper-main {
+        padding: 1rem;
+    }
+    #p-upper-main {
+        width: 90%;
+        font-size: 1rem;
+        padding-left: -1rem;
+    }
+    #img-col2-upper-main {
+        height: 40vh;
+        width: 100vw;
+    }
+    #video-col2-upper-main {
+        height: 20vh;
+        width: 80vw;
+        top: 4rem;
+    }
+    #middle-main {
+        display: block;
+    }
+    #img-col1-middle-main {
+        height: 40vh;
+        width: 100vw;
+        margin-left: -1rem;
+    }
+    #div1-col1-middle-main {
+        top: 16rem;
+        left: 6rem;
+        width: 54vw;
+        padding: 0%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 00.5rem;
+        height: 8vh;
+    }
+    #div1-div1-col1-middle-main {
+        height: 3vh;
+        width: 3vw;
+        padding-top: 0%;
+        margin: 0%;
+        padding-top: 1rem;
+    }
+    #p1-div1-col1-middle-main {
+        margin: 0%;
+        padding: 0%;
+    }
+    #h1-middle-main {
+        width: 100vw;
+        font-size: 2rem;
+        text-align: center;
+        margin-left: -1rem;
+    }
+    #p-middle-main {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #middle2-main {
+        display: block;
+        margin-top: -2.5rem;
+        height: 50vh;
+    }
+    #h1-middle2-main {
+        padding-top: 2rem;
+        text-align: center;
+        width: 100%;
+        padding-left: 0%;
+        margin-left: -2rem;
+    }
+    #p-middle2-main {
+        font-size: 1rem;
+        text-align: center;
+        margin-left: -2rem;
+        width: 100%;
+    }
+    #img-col2-middle2-main {
+        margin-left: 4rem;
+        height: 30vh;
+        margin-top: 0.5rem;
+    }
+    #video-col2-middle2-main {
+        top: -2rem;
+        left: 8.5rem;
+        height: 30vh;
+        width: 40vw;
+    }
+    #middle3-main {
+        display: block;
+    }
+    #img-col1-middle3-main {
+        height: 30vh;
+        width: 80vw;
+        margin-left: 1rem;
+    }
+    #h1-middle3-main {
+        text-align: center;
+    }
+    #p-middle3-main {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    #h1-middle4-main {
+        text-align: center;
+        margin-left: -3rem;
+        padding-left: 0%;
+    }
+    #p-middle4-main {
+        width: 100%;
+        text-align: center;
+    }
+    #input-middle4-main {
+        margin-left: 0rem!important;
+        padding-left: 0%;
+    }
+    #btn-middle4-main {
+        font-size: 0.6rem;
+        padding: 0.8rem 0.5rem 0.6rem 0.5rem;
+        margin: 0%;
+    }
+    #footer2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #p-footer {
+        margin-left: 3rem;
+    }
+    #only-netflix {
+        margin-left: 6rem;
+    }
+    #a-footer2 {
+        width: 30vw!important;
+        font-size: 1rem;
+        padding: 0.5rem;
+        padding-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}
